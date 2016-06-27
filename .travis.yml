@@ -1,4 +1,5 @@
 language: java
 jdk:
   - oraclejdk8
-script: UnitTests.java
+script: init
+sudo: false
