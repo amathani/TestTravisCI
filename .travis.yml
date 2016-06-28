@@ -2,3 +2,5 @@ language: java
 sudo: false
 script: ant build-project
 script: ant UnitTests
+jdk:
+  - oraclejdk8
