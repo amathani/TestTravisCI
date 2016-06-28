@@ -1,6 +1,6 @@
 language: java
 sudo: false
 script: ant build-project
-script: ant UnitTests
+script: ant SortUtilTest
 jdk:
   - oraclejdk8

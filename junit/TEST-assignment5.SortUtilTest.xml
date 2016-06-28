@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="AMIT-COLLEGE" name="testTravis.UnitTests" skipped="0" tests="1" time="0.077" timestamp="2016-06-28T14:38:05">
+<testsuite errors="0" failures="0" hostname="AMIT-COLLEGE" name="assignment5.SortUtilTest" skipped="0" tests="5" time="0.083" timestamp="2016-06-28T14:38:05">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="env.USERDOMAIN_ROAMINGPROFILE" value="AMIT-COLLEGE" />
@@ -74,7 +74,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
     <property name="ant.version" value="Apache Ant(TM) version 1.9.4 compiled on April 29 2014" />
     <property name="java.class.path" value="C:\Users\Amit Athani\workspace\TestTravisCI\bin;C:\Users\Amit Athani\workspace\TestTravisCI\lib\junit-4.12.jar;C:\Users\Amit Athani\workspace\TestTravisCI\lib\hamcrest-core-1.3.jar;C:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-launcher.jar;C:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant.jar;C:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-junit.jar;C:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-junit4.jar" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testTravis.UnitTests skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Amit Athani\workspace\TestTravisCI\junit\TEST-testTravis.UnitTests.xml crashfile=C:\Users\Amit Athani\workspace\TestTravisCI\junitvmwatcher4230223348537106611.properties propsfile=C:\Users\Amit Athani\workspace\TestTravisCI\junit1027008933996930193.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner assignment5.SortUtilTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Amit Athani\workspace\TestTravisCI\junit\TEST-assignment5.SortUtilTest.xml crashfile=C:\Users\Amit Athani\workspace\TestTravisCI\junitvmwatcher3327183627574454149.properties propsfile=C:\Users\Amit Athani\workspace\TestTravisCI\junit8229354261260809003.properties" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
     <property name="env.LOGONSERVER" value="\\MicrosoftAccount" />
     <property name="env.windir" value="C:\WINDOWS" />
@@ -111,7 +111,17 @@
     <property name="ant.project.invoked-targets" value="build,SortUtilTest,UnitTests,build-project" />
     <property name="env.PROCESSOR_LEVEL" value="6" />
   </properties>
-  <testcase classname="testTravis.UnitTests" name="testTestIsPrime" time="0.001" />
-  <system-out><![CDATA[]]></system-out>
+  <testcase classname="assignment5.SortUtilTest" name="testMergesort" time="0.003" />
+  <testcase classname="assignment5.SortUtilTest" name="testMergesort2" time="0.001" />
+  <testcase classname="assignment5.SortUtilTest" name="testinsertionsort" time="0.0" />
+  <testcase classname="assignment5.SortUtilTest" name="testFindPivot" time="0.0" />
+  <testcase classname="assignment5.SortUtilTest" name="testQuicksort" time="0.002" />
+  <system-out><![CDATA[begjkmuwxz printed Mergesort 
+12345678910111213141516 printed Mergesort 
+begjkmuwxz printed Insertionsort 
+length of list 11
+begjkmuwxz printed Quicksort 
+abccdeef printed Quicksort 
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
