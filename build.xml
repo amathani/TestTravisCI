@@ -21,6 +21,7 @@
         <mkdir dir="bin"/>
         <copy includeemptydirs="false" todir="bin">
             <fileset dir="src">
+                <exclude name="**/*.launch"/>
                 <exclude name="**/*.java"/>
             </fileset>
         </copy>
@@ -39,22 +40,6 @@
         </javac>
     </target>
     <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
-    <target name="TestTravisCI">
-        <mkdir dir="${junit.output.dir}"/>
-        <junit fork="yes" printsummary="withOutAndErr">
-            <formatter type="xml"/>
-            <test name="testTravis.UnitTests" todir="${junit.output.dir}"/>
-            <classpath refid="TestTravisCI.classpath"/>
-        </junit>
-    </target>
-    <target name="UnitTests (1)">
-        <mkdir dir="${junit.output.dir}"/>
-        <junit fork="yes" printsummary="withOutAndErr">
-            <formatter type="xml"/>
-            <test name="testTravis.UnitTests" todir="${junit.output.dir}"/>
-            <classpath refid="TestTravisCI.classpath"/>
-        </junit>
-    </target>
     <target name="UnitTests">
         <mkdir dir="${junit.output.dir}"/>
         <junit fork="yes" printsummary="withOutAndErr">
