@@ -78,7 +78,7 @@ public class SortUtilTest {
 		ArrayList<String> answer = new ArrayList<String>(Arrays.asList("b",
 				"e", "g", "j", "k", "m", "u", "w", "x", "z"));
 		ArrayList<String> list = new ArrayList<String>(Arrays.asList("e", "x",
-				"g", "k", "u", "m", "b", "z", "j", "w"));
+				"g", "k", "u", "m", "b", "z", "j", "w", "y"));
 		SortUtil.quicksort(list, new StringComparator());
 		for (int i = 0; i < list.size(); i++) {
 			System.out.print(list.get(i));
