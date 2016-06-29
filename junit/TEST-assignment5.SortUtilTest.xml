@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="AMIT-COLLEGE" name="assignment5.SortUtilTest" skipped="0" tests="5" time="0.083" timestamp="2016-06-28T14:38:05">
+<testsuite errors="0" failures="0" hostname="AMIT-COLLEGE" name="assignment5.SortUtilTest" skipped="0" tests="5" time="0.078" timestamp="2016-06-29T10:17:44">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="env.USERDOMAIN_ROAMINGPROFILE" value="AMIT-COLLEGE" />
@@ -51,12 +51,13 @@
     <property name="env.ProgramW6432" value="C:\Program Files" />
     <property name="path.separator" value=";" />
     <property name="java.vm.version" value="25.74-b02" />
-    <property name="env.USERPROFILE" value="C:\Users\Amit Athani" />
     <property name="user.variant" value="" />
+    <property name="env.USERPROFILE" value="C:\Users\Amit Athani" />
     <property name="ant.library.dir" value="C:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib" />
     <property name="junit.output.dir" value="junit" />
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
     <property name="env.TMP" value="C:\Users\AMITAT~1\AppData\Local\Temp" />
+    <property name="env.FPS_BROWSER_USER_PROFILE_STRING" value="Default" />
     <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
     <property name="user.script" value="" />
@@ -72,29 +73,30 @@
     <property name="java.vendor.url" value="http://java.oracle.com/" />
     <property name="java.vm.vendor" value="Oracle Corporation" />
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
-    <property name="ant.version" value="Apache Ant(TM) version 1.9.4 compiled on April 29 2014" />
     <property name="java.class.path" value="C:\Users\Amit Athani\workspace\TestTravisCI\bin;C:\Users\Amit Athani\workspace\TestTravisCI\lib\junit-4.12.jar;C:\Users\Amit Athani\workspace\TestTravisCI\lib\hamcrest-core-1.3.jar;C:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-launcher.jar;C:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant.jar;C:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-junit.jar;C:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-junit4.jar" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner assignment5.SortUtilTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Amit Athani\workspace\TestTravisCI\junit\TEST-assignment5.SortUtilTest.xml crashfile=C:\Users\Amit Athani\workspace\TestTravisCI\junitvmwatcher3327183627574454149.properties propsfile=C:\Users\Amit Athani\workspace\TestTravisCI\junit8229354261260809003.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner assignment5.SortUtilTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Amit Athani\workspace\TestTravisCI\junit\TEST-assignment5.SortUtilTest.xml crashfile=C:\Users\Amit Athani\workspace\TestTravisCI\junitvmwatcher2228180906413295277.properties propsfile=C:\Users\Amit Athani\workspace\TestTravisCI\junit5540820342369043583.properties" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.4 compiled on April 29 2014" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
-    <property name="env.LOGONSERVER" value="\\MicrosoftAccount" />
     <property name="env.windir" value="C:\WINDOWS" />
+    <property name="env.LOGONSERVER" value="\\MicrosoftAccount" />
     <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
     <property name="java.vm.specification.version" value="1.8" />
-    <property name="sun.cpu.endian" value="little" />
     <property name="sun.os.patch.level" value="" />
+    <property name="sun.cpu.endian" value="little" />
     <property name="debuglevel" value="source,lines,vars" />
-    <property name="env.ANT_HOME" value="C:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020" />
     <property name="env.ProgramFiles" value="C:\Program Files" />
+    <property name="env.ANT_HOME" value="C:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020" />
     <property name="java.io.tmpdir" value="C:\Users\AMITAT~1\AppData\Local\Temp\" />
     <property name="env.PROCESSOR_REVISION" value="3c03" />
     <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
     <property name="env.SystemRoot" value="C:\WINDOWS" />
+    <property name="env.FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer" />
     <property name="os.arch" value="amd64" />
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_74\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
-    <property name="env.LOCALAPPDATA" value="C:\Users\Amit Athani\AppData\Local" />
     <property name="user.dir" value="C:\Users\Amit Athani\workspace\TestTravisCI" />
+    <property name="env.LOCALAPPDATA" value="C:\Users\Amit Athani\AppData\Local" />
     <property name="line.separator" value="&#xd;&#xa;" />
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
     <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
@@ -112,7 +114,7 @@
     <property name="env.PROCESSOR_LEVEL" value="6" />
   </properties>
   <testcase classname="assignment5.SortUtilTest" name="testMergesort" time="0.003" />
-  <testcase classname="assignment5.SortUtilTest" name="testMergesort2" time="0.001" />
+  <testcase classname="assignment5.SortUtilTest" name="testMergesort2" time="0.002" />
   <testcase classname="assignment5.SortUtilTest" name="testinsertionsort" time="0.0" />
   <testcase classname="assignment5.SortUtilTest" name="testFindPivot" time="0.0" />
   <testcase classname="assignment5.SortUtilTest" name="testQuicksort" time="0.002" />
@@ -120,7 +122,7 @@
 12345678910111213141516 printed Mergesort 
 begjkmuwxz printed Insertionsort 
 length of list 11
-begjkmuwxz printed Quicksort 
+begjkmuwxyz printed Quicksort 
 abccdeef printed Quicksort 
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>

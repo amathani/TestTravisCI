@@ -76,7 +76,7 @@ public class SortUtilTest {
 	@Test
 	public void testQuicksort() {
 		ArrayList<String> answer = new ArrayList<String>(Arrays.asList("b",
-				"e", "g", "j", "k", "m", "u", "w", "x", "z"));
+				"e", "g", "j", "k", "m", "u", "w", "x", "y", "z"));
 		ArrayList<String> list = new ArrayList<String>(Arrays.asList("e", "x",
 				"g", "k", "u", "m", "b", "z", "j", "w", "y"));
 		SortUtil.quicksort(list, new StringComparator());
